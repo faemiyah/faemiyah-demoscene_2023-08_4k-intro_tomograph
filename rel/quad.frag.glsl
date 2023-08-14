@@ -109,7 +109,7 @@ float sdf_ellipsoid(vec3 pos, vec3 r)
 
 /// Tardigrade SDF.
 /// Distance estimator from http://www.imajeenyus.com/mathematics/20121112_distance_estimates/distance_estimation_method_for_fractals.pdf
-/// \param pos Position relative to la creatura.
+/// \param pos Position relative to tardigrade.
 float sdf_tardigrade(vec3 pos)
 {
     int i_MAXITER = 8;
